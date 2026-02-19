@@ -30,4 +30,4 @@ jobs:
         run: mvn test
 
        - name: Build Docker Image
-         run: docker build -t spring-boot-h2-app
+         run: docker build -t spring-boot-h2-app .
